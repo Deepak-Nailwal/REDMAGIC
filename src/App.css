@@ -1,0 +1,48 @@
+.height{
+    height: auto;
+    width: 60px;
+}
+.bg-1{
+    background-image: url(../src/assets/img/redmagichome.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.space-1{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.bg-2{
+    background-image: url(../src/assets/img/redmagicphone.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.bg-3{
+    background-image: url(../src/assets/img/redmagicphone2.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.bg-4{
+    background-image: url(../src/assets/img/redmagic3.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.bg-5{
+    background-image: url(../src/assets/img/cooler.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+.increase-size{
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+.line{
+    height: 1px;
+    width: max-width;
+    background-color: rgb(255, 243, 243);
+}
