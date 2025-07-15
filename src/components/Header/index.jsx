@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import img1 from '../../assets/img/header.avif';
+import img2 from '../../assets/img/phonws.webp';
+
 
 const Header = () => {
   return (
@@ -17,29 +19,30 @@ const Header = () => {
                 <Navbar.Collapse id="navbar-nav">
                   <Nav className="me-auto gap-3">
                     <NavDropdown title="Gaming Smartphone" id="nav-smartphone">
-                      <NavDropdown.Item href="#">Item 1</NavDropdown.Item>
-                      <NavDropdown.Item href="#">Item 2</NavDropdown.Item>
+                      <NavDropdown.Item href="#"><img className="img-fluid bg-dark" src={img1} alt="phone" /></NavDropdown.Item>
+                      <NavDropdown.Item href="#"><img className="img-fluid bg-dark" src={img2} alt="phone" /></NavDropdown.Item>
                       <NavDropdown.Divider />
-                      <NavDropdown.Item href="#">Separated Link</NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown title="Tablet" id="nav-tablet">
-                      <NavDropdown.Item href="#">Item 1</NavDropdown.Item>
-                      <NavDropdown.Item href="#">Item 2</NavDropdown.Item>
+                      <NavDropdown.Item href="#"><img className="img-fluid bg-dark" src={img2} alt="phone" /></NavDropdown.Item>
+                      <NavDropdown.Item href="#"><img className="img-fluid bg-dark" src={img2} alt="phone" /></NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown title="PC Gaming" id="nav-pcgaming">
-                      <NavDropdown.Item href="#">Item 1</NavDropdown.Item>
-                      <NavDropdown.Item href="#">Item 2</NavDropdown.Item>
+                      <NavDropdown.Item href="#"><img className="img-fluid bg-dark" src={img2} alt="phone" /></NavDropdown.Item>
+                      <NavDropdown.Item href="#"><img className="img-fluid bg-dark" src={img2} alt="phone" /></NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown title="Store" id="nav-store">
-                      <NavDropdown.Item href="#">Item 1</NavDropdown.Item>
-                      <NavDropdown.Item href="#">Item 2</NavDropdown.Item>
+                      <NavDropdown.Item href="#"></NavDropdown.Item>
+                      <NavDropdown.Item href="#"><img className="img-fluid bg-dark" src={img2} alt="phone" /></NavDropdown.Item>
                     </NavDropdown>
 
                     <NavDropdown title="REDMAGIC Programs" id="nav-programs">
-                      <NavDropdown.Item href="#">Item 1</NavDropdown.Item>
+                      <NavDropdown.Item href="#">item1</NavDropdown.Item>
+                      <NavDropdown.Item href="#">Item 2</NavDropdown.Item>
+                       <NavDropdown.Item href="#">item1</NavDropdown.Item>
                       <NavDropdown.Item href="#">Item 2</NavDropdown.Item>
                     </NavDropdown>
 
